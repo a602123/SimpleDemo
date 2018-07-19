@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace SimpleDemo.WebHost
+namespace SimpleDemo.WebAPI
 {
     public class Program
     {

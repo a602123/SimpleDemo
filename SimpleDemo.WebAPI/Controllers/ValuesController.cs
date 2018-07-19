@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace SimpleDemo.WebHost.Controllers
+namespace SimpleDemo.WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

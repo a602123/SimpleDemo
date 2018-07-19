@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDemo.Model", "SimpleDemo.Model\SimpleDemo.Model.csproj", "{CC025FA6-6029-4D26-8AD6-6C5BA1166F58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleDemo.Model", "SimpleDemo.Model\SimpleDemo.Model.csproj", "{CC025FA6-6029-4D26-8AD6-6C5BA1166F58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDemo.Business", "SimpleDemo.Business\SimpleDemo.Business.csproj", "{0B02E95F-E70B-40B5-80FC-A481A30E2CFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleDemo.Business", "SimpleDemo.Business\SimpleDemo.Business.csproj", "{0B02E95F-E70B-40B5-80FC-A481A30E2CFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDemo.DataProvider", "SimpleDemo.DataProvider\SimpleDemo.DataProvider.csproj", "{95C86259-5949-4341-975D-A9CD8776B786}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleDemo.DataProvider", "SimpleDemo.DataProvider\SimpleDemo.DataProvider.csproj", "{95C86259-5949-4341-975D-A9CD8776B786}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDemo.Test", "SimpleDemo.Test\SimpleDemo.Test.csproj", "{78C2917F-C090-40F6-BA26-64157DDBE8E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleDemo.Test", "SimpleDemo.Test\SimpleDemo.Test.csproj", "{78C2917F-C090-40F6-BA26-64157DDBE8E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDemo.WebHost", "SimpleDemo.WebHost\SimpleDemo.WebHost.csproj", "{8D162F72-0E17-4DA5-92BF-63CD20FBABF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDemo.WebAPI", "SimpleDemo.WebAPI\SimpleDemo.WebAPI.csproj", "{094B7968-0D51-4BCE-B4B2-9513BBA4BAE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{78C2917F-C090-40F6-BA26-64157DDBE8E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78C2917F-C090-40F6-BA26-64157DDBE8E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78C2917F-C090-40F6-BA26-64157DDBE8E4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8D162F72-0E17-4DA5-92BF-63CD20FBABF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D162F72-0E17-4DA5-92BF-63CD20FBABF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D162F72-0E17-4DA5-92BF-63CD20FBABF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D162F72-0E17-4DA5-92BF-63CD20FBABF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{094B7968-0D51-4BCE-B4B2-9513BBA4BAE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{094B7968-0D51-4BCE-B4B2-9513BBA4BAE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{094B7968-0D51-4BCE-B4B2-9513BBA4BAE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{094B7968-0D51-4BCE-B4B2-9513BBA4BAE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
