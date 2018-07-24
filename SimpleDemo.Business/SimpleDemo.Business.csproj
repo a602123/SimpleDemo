@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleDemo.DataProvider\SimpleDemo.DataProvider.csproj" />
+    <ProjectReference Include="..\SimpleDemo.Model\SimpleDemo.Model.csproj" />
+  </ItemGroup>
+
 </Project>
